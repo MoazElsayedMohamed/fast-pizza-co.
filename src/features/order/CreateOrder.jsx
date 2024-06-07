@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Form, redirect, useActionData, useNavigation } from "react-router-dom";
 import { createOrder } from "../../services/apiRestaurant";
-import Button from "../../ui/Button";
+import Button from "../../UI/Button";
 import EmptyCart from "../cart/EmptyCart";
 import { useDispatch, useSelector } from "react-redux";
 import { clearItems, getCart, getTotalCartPrice } from "../cart/cartSlice";
