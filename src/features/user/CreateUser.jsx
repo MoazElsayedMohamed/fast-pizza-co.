@@ -34,7 +34,7 @@ function CreateUser() {
 
       {username !== "" && (
         <div>
-          <Button type="primary" to="/cart">
+          <Button type="primary" to="/menu">
             Start ordering
           </Button>
         </div>

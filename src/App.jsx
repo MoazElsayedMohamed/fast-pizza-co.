@@ -13,13 +13,13 @@ import AppLayout from "./UI/AppLayout";
 const routes = createBrowserRouter([
   {
     element: <AppLayout />,
+    errorElement: <Error />,
     children: [
       { path: "/", element: <Home /> },
       {
         path: "/menu",
         element: <Menu />,
         loader: menuLoader,
-        errorElement: <Error />,
       },
       { path: "/cart", element: <Cart /> },
       {
